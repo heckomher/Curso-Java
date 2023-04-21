@@ -1,0 +1,10 @@
+#menu1,#menu2,#menu3{
+    width: 33%;
+    padding: 0.5em,0.5em,0.5em,0.5em;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    resize: vertical;
+    } 

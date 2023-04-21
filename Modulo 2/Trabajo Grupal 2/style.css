@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-color: #303030;
+    color: #f8f8f8;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0;
+}
+
+h1{
+    color: blueviolet;
+    margin: auto;
+    width: 100%;     
+    border: 3px black;     
+
+}
+a{
+    color: aquamarine;
+
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+figcaption{
+    display: block;
+}
+form{
+    flex-wrap: wrap;
+    }
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    resize: vertical;
+    }
+label{
+    margin: 0.2em,0.2em,0.2em,0.2em;
+}
+.container{
+    display: block;
+    flex-wrap: wrap;
+    position: absolute;
+    width: fit-content;
+}
+.pie{
+    display: block;
+    flex-wrap: wrap;
+    position: absolute;
+    width: fit-content;
+}
