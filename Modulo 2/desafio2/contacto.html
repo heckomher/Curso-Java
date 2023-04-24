@@ -8,12 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS v5.2.1 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
 </head>
 
-<body class="container">
+<body class="d-flex flex-column min-vh-100">
     <header>
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
@@ -42,18 +41,16 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="flex-shrink-0">
+        <section>
+            <div class="text-center p-5 rounded-lg m-2">
+                <h1>Contacto</h1>
+            </div>
         <div class="container">
-            <h1>Formulario de Contacto</h1>
-            <p>Rellene el formulario y lo contactaremos a la brevedad.</p>
             <form action="submit.js">
                 <div class="mb-3">
-                    <label for="nombre" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="John Rambo">
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="jonhyto@ejemplo.com">
+                    <label for="email" class="form-label">Correo</label>
+                    <input type="email" class="form-control" id="email" placeholder="mail@example.com">
                 </div>
                 <div class="mb-3">
                     <label for="mensaje" class="form-label">Mensaje</label>
@@ -67,19 +64,14 @@
 
 
     </main>
-    <footer class="bg-dark text-light py-3">
-        <div class="container">
-            <p class="text-center">&copy;2023 Héctor Komori</p>
+    <footer class="footer mt-auto bg-dark text-light py-3">
+        <div class="container text-center">
+            <span> &copy;2023 Héctor Komori</span>
         </div>
     </footer>
-    <!-- Bibliotecas JavaScript de Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-        </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-        </script>
+    <!-- Bibliotecas JavaScript de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
